@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITA_GPT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <link rel ="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+</head>
+<body>
+    <header>
+     <!-- <a class="navbar-brand" href="index.html"><img src="gita.png" alt="logo"></a> -->
+     <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="blog.html">Blog</a></li>
+     </ul>
+     <div class="main">
+        <div id="form-open">
+            <a href="#" class="user"><i class="rifill-user-fill"></i>
+              LOGIN
+            </a>
+          </div>
+         
+          
+        <div class="bx bx-menu" id="menu-icon"></div>
+     </div>
+    </header>
+    <section id="bg"></section>
+    <section class="home">
+        <div class="form-container">
+          <i class="uil uil-times form_close"></i>
+          <!-- login form -->
+          <div class="form login_form" id="loginForm">
+            <form action="javascript:void(0)">
+          <h2>Login</h2>
+          <div class ="input_box">
+            <input type="email" placeholder="Enter your Email" required id="login_email"/>
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class ="input_box">
+            <input type="password" placeholder="Enter your password" required id="login_password"/>
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check">
+              <label for="check">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw" id="forgotPasswordBtn">Forget password?</a>
+          </div>
+          <button class="button" id="loginBtn">Login Now</button>
+          <!-- <p>or</p> --><hr>
+          <div class="googleBtn googleloginbutton googlelogoutbutton" id="googleSignInButton" >Continue With Google</div>
+          <div class="login_signup">
+            Don't have an account? <a href="#" id="signup">SignUp</a>
+          </div>
+        </form>
+        </div>
+        <!--signUP-->
+        <div class="form signup_form" id="signupForm">
+          <form action="#">
+            <h2>Signup</h2>
+            <div class="input_box">
+              <input type="email" placeholder="Enter your Email" required id="signup_email">
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required id="signup_password">
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required>
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+          
+            <button class="button" id="signupBtn">SignUp Now</button>
+            <div class="login_signup">
+              Already have an account? <a href="#" id="login">Login</a>
+            </div>
+          </form>
+        </div>
+        
+        </div>
+      </section>
+      <img class="gita" src="gita.png" />
+      <div class="bhagwad" >
+        BHAGWAD</div>
+        <div class="gita-gpt" >
+            GITAGPT </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
